@@ -5,7 +5,7 @@ public class 排序 {
         int [] a = new int[]{4,7,1,8,4,2,7,9,0,7,5,3,7,2,6,2,5,4,3,8};
         int [] temp = new int[a.length];
         排序 select = new 排序();
-        select.quick_sort(a,0,a.length-1);
+        select.select_sort(a);
         for (int i = 0; i < a.length; i++) {
             System.out.printf(a[i]+" ");
 
